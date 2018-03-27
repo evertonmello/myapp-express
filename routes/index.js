@@ -7,4 +7,6 @@ router.get('/lala', auth,function(req, res, next) {
   res.render('home');
 });
 
+
+
 module.exports = router;
